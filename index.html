@@ -4,58 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-  <title>Mattkk's Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Mukta:wght@500&family=Orbitron&family=Rubik&display=swap" rel="stylesheet">
+  <title>Document</title>
 </head>
 <body>
-  <div class="header">
   <header class="header">
-    <div class="banner">
-    <img class="banner" src="banner.png" alt="">
-    </div>
+    <img class="headimg" src="images/banner.jpg" alt="Website Banner">
   </header>
-  </div>
-  <div class="imgn">
-  <img class="imgn" src="notes.png" alt="">
-  </div>
-  <div class="section1">
-  <a href="https://quavergame.com/user/294976"><button class="button" type="submit" target="blank">Quaver Profile</button></a>
-  <div class="iconp">
-  </div>
-    <img class="imgquav" src="quavav.jpg" alt="">
-    <h3 class="h3hp">Mattkk</h3>
-    <h5 class="h3hp11">IT: #77</h5>
-    <h5 class="h3hp12">Last seen: Today</h5>
-  </div>
-  <div class="section2">
-    <a href="https://osu.ppy.sh/users/23953059"><button class="button" type="submit" target="blank">Osu! Profile</button></a>
-    <div class="iconp1">
-    </div>
-      <img class="imgosu" src="avatarosu.jfif" alt="">
-      <h3 class="h3hp1">Mattkkk_</h3>
-      <h5 class="h3hp11">IT: #947</h5>
-      <h5 class="h3hp12">Last seen: Today</h5>
-  </div>
-  <div class="section3">
-    <div class="other">
-    </div>
-    <div class="other">
-    </div>
-    <div class="other">
-    </div>
-    <div class="other">
-    </div>
-    <img class="imginsta" src="meinsta.jpg" alt="">
-    <img class="imgtg" src="metg.jpg" alt="">
-    <img class="imgds" src="ds.webp" alt="">
-    <img class="imgtw" src="tw.png" alt="">
-    <a href="https://www.instagram.com/matteomigliarese_/"><h3 class="h3hp13">Instagram</h3></a>
-    <a href="https://telegram.me/aka_Mattkk/"><h3 class="h3hp14">Telegram</h3></a>
-    <a href="https://discordapp.com/users/586220830422466580/"><h3 class="h3hp15">Discord</h3></a>
-    <a href="https://www.twitch.tv/mattkk_"><h3 class="h3hp16">Twitch</h3></a>
-  </div>
+  <section class="section1">
+<a class="a1" href="https://quavergame.com/user/294976"><button class="s1b" type=submit target="blank">Quaver Profile</a></button>
+  </section>
+  <section class="section1">
+<a class="a1" href="https://osu.ppy.sh/users/23953059"><button class="s1b" type=submit target="blank">Osu! Profile</a></button>
+  </section>
+  <section class="section1">
+    <script>
+    function GenshinID() {
+      var copyText = document.getElementById("myInput");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      alert("Mattkk's Genshin Impact UID: " + copyText.value);
+    }
+</script>
+<button class="s1b" type=submit onclick="GenshinID()">Genshin Impact ID</button>
+  </section>
+  <input class="hide" type="text" value="707825610" id="myInput">
+
+  <footer class="footer">
+
+  </footer>
 </body>
 </html>
