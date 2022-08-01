@@ -39,6 +39,7 @@
     transform: translateY(370px);
     color: white;
     background-image: linear-gradient(to right,  #f40428  50%, #cc0488  100%);
+    text-decoration: none;
   }
 
   .a1 {
