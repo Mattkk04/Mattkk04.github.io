@@ -23,7 +23,7 @@
   <section class="section1">
     <script>
     function GenshinID() {
-      var copyText = document.getElementById("myInput");
+      var copyText = document.getElementById("Input");
       copyText.select();
       copyText.setSelectionRange(0, 99999);
       navigator.clipboard.writeText(copyText.value);
@@ -32,10 +32,6 @@
 </script>
 <button class="s1b" type=submit onclick="GenshinID()"><strong>Genshin Impact ID</strong></button>
   </section>
-  <input class="hide" type="text" value="707825610" id="myInput">
-
-  <footer class="footer">
-
-  </footer>
+  <input class="hide" type="text" value="707825610" id="Input">
 </body>
 </html>
